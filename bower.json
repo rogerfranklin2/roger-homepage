@@ -1,0 +1,17 @@
+{
+  "name": "angularhomepage",
+  "version": "0.0.0",
+  "authors": [
+    "Roger Franklin"
+  ],
+  "license": "MIT",
+  "homepage": "rogerfrankl.in",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

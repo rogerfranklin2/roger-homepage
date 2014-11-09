@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="homepage">
+<head>
+    <meta charset="utf-8">
+    <title>Roger Franklin</title>
+    <link rel="stylesheet" href="stylesheets/app.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="javascripts/script.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+</head>
+<body ng-controller=mainController >
+    <header>
+        <p>rogerfrankl.in</p>
+        <nav>
+            <ul>
+                <li><a href="#">home.</a></li>
+                <li><a href="#about">about.</a></li>
+                <li><a href="#">portfolio.</a></li>
+                <li><a href="#contact">contact.</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+  <div id="container">
+
+        <div ng-view></div>
+
+    </div>
+
+
+</body>
+</html>

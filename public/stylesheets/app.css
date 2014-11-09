@@ -1,0 +1,5 @@
+html {font-family: 'Lekton', sans-serif; }
+
+nav ul li {
+    display: inline-block;
+}
