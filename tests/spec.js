@@ -7,7 +7,7 @@ describe('portfolio homepage', function() {
 
   it('has a heading', function() {
     heading = browser.findElement(protractor.By.tagName('h1'));
-    expect(heading.getText()).toEqual('Hello!');
+    expect(heading.getText()).toEqual('Rogerfrankl.in');
   });
 
   it('should have default tab selected', function() {
