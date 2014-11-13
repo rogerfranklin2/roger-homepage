@@ -2,16 +2,10 @@
 
 
     app.controller('headerCtrl', function($anchorScroll, $location, $scope){
-        console.log("first");
       this.goToAnchor = function(anchor){
-          console.log("Second");
           $location.hash(anchor);
-          console.log("third");
       } 
-    }
-    );
-
-  
+    });
 
     app.controller('PanelController', function($scope){
         this.tab = 1;
@@ -24,3 +18,12 @@
             return this.tab === checkTab
         }
     });
+
+    app.controller('EmailController', ['$scope', function($scope) {
+
+      $scope.sendEmail = function(email) {
+        //TODO:post email object to /email endpoint nodeMailer
+        console.log(email);
+      };
+
+    }])

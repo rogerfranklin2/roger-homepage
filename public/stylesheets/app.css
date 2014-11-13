@@ -13,6 +13,11 @@ h1 {font-family: 'Montserrat', sans-serif;
         color: white;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
 p { font-family: 'EB Garamond', serif;}
 
 header {
@@ -50,4 +55,84 @@ nav ul li {
     display: inline-block;
     padding: 0 15px;
     color: white;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.tabs {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.tabs ul {
+    font-size: 30px;
+    color: #393A3A;
+    list-style-type: none;
+}
+
+.tabs ul li {
+    display: inline-block;
+    width: 32%;
+    margin: 18px 0;
+    text-align: center;
+}
+
+.tabs ul li::after {
+    content: '';
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    bottom: -10px;
+    width: 40px;
+    height: 1px;
+    border-top: 4px solid #e5e5e5;
+}
+
+.selected {
+    color: red;
+}
+
+.two-col-container {
+    margin: 20px 0;
+}
+
+.two-col {
+    display: inline-block;
+    width:45%;
+    margin: 0 29px;
+}
+
+.ng-invalid.ng-dirty {
+    border-bottom:  3px solid #FA787E;
+}
+
+input.ng-valid.ng-dirty {
+    border-bottom:  3px solid #78FA89;
+}
+
+.email-input {
+    width: 50%;
+    border:0;
+    border-bottom:  3px solid #e5e5e5;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    margin: 8px 0px;
+}
+
+.email-input.long{
+    width: 100%
+}
+
+
+
+textarea:focus, input:focus{
+    outline: 0;
 }
